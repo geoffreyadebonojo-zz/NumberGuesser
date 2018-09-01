@@ -1,33 +1,36 @@
 
 
 h1 {
-	background-color: brown;
-	font-size: 15px;
+	background-color: beige;
+	font-size: 25px;
 	position: relative;
 	left: -40px;
+	padding-left: 40px;
 	width: 120%;
 	font-family: 'Courier New';
 }
 
-
-#main-header {
-	position: relative;
-    left: -30px;
-	width: 120%;
-}
-
 #subheader {
-	background: lightblue; font-size: 15px;
+	background: lightblue; 
+	font-size: 20px;
+	font-family: monospace;
 	padding-bottom: 2px;
-	padding-top: 0px;
-	padding-left: 0px;
+	padding-top: 5px;
+	padding-left: 30px;
 	font-style: oblique;
 	position: relative;
-    left: -30px;}
+    left: -10px;}
 
-.requirements, #instructions {
-	font-size: 10px;
-	font-style: italic;}
+links {
+	position: relative;
+    left: 0px;
+	font-size: 8px;
+}
+
+#instructions {
+	font-size: 12px;
+	font-style: italic;
+	padding-bottom: 20px}
 
 
 
@@ -36,6 +39,8 @@ background: light-brown;
 left: 0px;
 font-family: 'Alegreya Sans';}
 
-li {text-align: left; position: relative;
-font-size: 10px;
-padding-top: 5px}
+li {text-align: left; 
+	position: relative;
+	font-size: 15px;
+	padding-top: 5px;
+	font-family: monospace;}
