@@ -10,18 +10,18 @@ var guessButton = document.querySelector('.guessbutton');
 guessButton.addEventListener('click', guessCheck);
 function guessCheck () {
 	console.log("Guess = " + inputEl.value);
-
 	console.log("Number = " + NUMBER);
 	if (inputEl.value == NUMBER) {
-	console.log("Correct!") 
+	console.log("Correct!")
+	answerField.innerHTML = "Correct!"	
 	} else if (Math.abs(inputEl.value - NUMBER)<10) {
 	console.log("close!");
+	answerField.innerHTML = "Close!"
 	}
 	else {
 	console.log("Incorrect.");
+	answerField.innerHTML = "Wrong!!"
 	}
-	
-	
 };
 
 //DISPLAY RESULT
