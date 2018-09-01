@@ -9,14 +9,19 @@ answerField.innerHTML = answer;
 var guessButton = document.querySelector('.guessbutton');
 guessButton.addEventListener('click', guessCheck);
 function guessCheck () {
-	console.log("Guess");
-	console.log(inputEl.value);
-	console.log(NUMBER)
+	console.log("Guess = " + inputEl.value);
+
+	console.log("Number = " + NUMBER);
 	if (inputEl.value == NUMBER) {
-	console.log("Correct!")}
+	console.log("Correct!") 
+	} else if (Math.abs(inputEl.value - NUMBER)<10) {
+	console.log("close!");
+	}
 	else {
 	console.log("Incorrect.");
 	}
+	
+	
 };
 
 //DISPLAY RESULT
