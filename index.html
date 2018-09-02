@@ -6,12 +6,21 @@
 </head>
 <body>
 
-	<header><div id='sneaky'>Unconstructive Feedback</div> <span id= "bolded"> Number</span> Guesser</header>
-	<input id='reply' placeholder='guess' class='input'>
-	<button class= 'guessbutton'>Guess</button>
-	<button class= 'clearbutton'>Clear</button>
-	<h2 class= 'lastresponse'></h2>
-	<h3 class= 'gentleencouragement'>Why haven't you guessed yet?</h3>
+	<header><div id='sneaky'>Unconstructive Feedback</div> <span id= "number"> Number</span> <span id= "guesser"> Guesser</span></header>
+	
+	<div id= 'entryfield'>	
+		<input id='reply' placeholder='Enter your guess' class='input'>
+	</div>
+	
+	<span id='userbuttons'>
+		<button class= 'guessbutton'>Guess</button>
+		<button class= 'clearbutton'>Clear</button>
+	</span>
+	
+	<div class= 'gentleencouragement'>Why haven't you guessed yet?</div>
+	
+	<div class= 'lastguess'>Your last guess was</div>
+	<h6 class= 'guess'>00</h6>
 	<h4 class= 'answer'></h4>
 	<button class = 'reset'>Reset</button>
 	
